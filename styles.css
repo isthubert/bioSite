@@ -1,0 +1,111 @@
+/* Isaac St Hubert Module 6.3 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Header and Navigation */
+
+header {
+    background-color: #6a5acd;
+    color: white;
+    padding: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: #222;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Paragraph Styling */
+
+p {
+    max-width: 65ch;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+    color: #ff6b6b;
+}
+
+/* Images */
+
+figure {
+    margin: 32px 0;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+/* Section Layout */
+
+.section {
+    background: white;
+    padding: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 16px;
+    margin-top: 64px;
+    background-color: #6a5acd;
+    color: white;
+}
+
