@@ -1,7 +1,8 @@
-<!-- Isaac St Hubert Module 7.2 -->
+<!-- Isaac St Hubert Module 10.2 -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Gwendolyn's Hobbies</title>
     <link rel="stylesheet" href="styles.css">
@@ -12,10 +13,11 @@
 <header>
     <div class="container">
         <h1>Gwendolyn's Hobbies</h1>
+
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="hobbies.html">Hobbies</a>
+            <a href="hobbies.html" class="active">Hobbies</a>
         </nav>
     </div>
 </header>
@@ -26,35 +28,70 @@
 
         <h2>Favorite Activities</h2>
 
-        <h3>Painting</h3>
-        <p>
-            She enjoys spending time painting things of nature like <strong>flowers</strong> and the <strong>sky</strong>.
-        </p>
 
-        <figure>
-            <img src="images/painting.jpg" alt="painting">
-            <figcaption>One of her first paintings</figcaption>
-        </figure>
+        <!-- Hobby 1 -->
+        <div class="goal">
 
-        <h3>Cooking</h3>
-        <p>
-            Cooking is one of her passions, and she loves creating <em>delicious meals</em> for the family.
-        </p>
+            <figure>
+                <img src="images/painting.jpg" alt="Painting">
+                <figcaption>One of her first paintings</figcaption>
+            </figure>
 
-        <figure>
-            <img src="images/cookbook.jpg" alt="Cookbook">
-            <figcaption>Cookbook full of recipes from her and her former coworkers</figcaption>
-        </figure>
+            <div class="goal-text">
+                <h3>Painting</h3>
 
-        <h3>Church</h3>
-        <p>
-            One of the ways she chooses to express her faith is by servicing the church through various roles such as administering bible studies and even leading the church in prayer.
-        </p>
+                <p>
+                    She enjoys spending time painting things of nature like
+                    <strong>flowers</strong> and the <strong>sky</strong>.
+                </p>
+            </div>
 
-        <figure>
-            <img src="images/church.jpg" alt="church">
-            <figcaption>One of her most fulfilling church experiences</figcaption>
-        </figure>
+        </div>
+
+
+        <!-- Hobby 2 -->
+        <div class="goal reverse">
+
+            <figure>
+                <img src="images/cookbook.jpg" alt="Cookbook">
+                <figcaption>
+                    Cookbook full of recipes from her and her former coworkers
+                </figcaption>
+            </figure>
+
+            <div class="goal-text">
+                <h3>Cooking</h3>
+
+                <p>
+                    Cooking is one of her passions, and she loves creating
+                    <em>delicious meals</em> for the family.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Hobby 3 -->
+        <div class="goal">
+
+            <figure>
+                <img src="images/church.jpg" alt="Church">
+                <figcaption>One of her most fulfilling church experiences</figcaption>
+            </figure>
+
+            <div class="goal-text">
+                <h3>Church</h3>
+
+                <p>
+                    One of the ways she chooses to express her faith is by
+                    servicing the church through various roles such as
+                    administering bible studies and even leading the
+                    church in prayer.
+                </p>
+            </div>
+
+        </div>
+
 
     </div>
 
